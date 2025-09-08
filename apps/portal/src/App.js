@@ -28,6 +28,7 @@ const DEV_MODE_DATA = {
 
 function SentryErrorBoundary({site, children}) {
     console.log("hello from the inside");
+    console.log("PLEASE");
     console.log("goodbye, yall");
     const {portal_sentry: portalSentry} = site || {};
     if (portalSentry && portalSentry.dsn) {
