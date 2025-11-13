@@ -31,6 +31,7 @@ function SentryErrorBoundary({site, children}) {
     console.log("hello from the inside");
     console.log("woop");
     console.log("PLEASE");
+    console.log("pretty PLEASE");
     console.log("goodbye, yall");
     console.log("jk, I'm back");
     const {portal_sentry: portalSentry} = site || {};
