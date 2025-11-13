@@ -47,6 +47,8 @@ function SentryErrorBoundary({site, children}) {
     );
 }
 
+console.log("hello");
+
 export default class App extends React.Component {
     constructor(props) {
         super(props);
